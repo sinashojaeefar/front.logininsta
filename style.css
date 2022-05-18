@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-main {
+    display: flex;
+    padding: 20px 0;
+
+}
+.main-container {
+    width: 90%;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-box img {
+    width: 400px;
+}
+
+.login-box {
+    display: flex;
+    height: 315px;
+    width: 350px;
+    margin: 50px 0px;
+    background-color: #FFFFFF;
+    border: 2px solid #dcdde1;
+}
+
+.login-header {
+    padding: 40px 0;
+}
+
+.login-header h2 {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.login-content {
+    display: flex;
+    margin-top: 35px;
+}
+
+input[type="number"],
+input[type="password"] {
+    width: 260px;
+    background-color: #fff;
+    padding: 10px 5px;
+    margin: 5px 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-blue {
+    width: 260px;
+    margin: 10px 40px;
+    height: 30px;
+    background-color: #0097e6;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+h5 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 900px){
+    .main-box {
+        width: 100%;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.signup {
+    display: flex;
+    height: 50px;
+    width:  350px;
+    margin: 40px 0px;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border: 2px solid #dcdde1;
+}
+.signup-content {
+    margin-top: 15px;
+}
+.signup-content a {
+    text-decoration: none;
+}
+
+.apptext {
+    text-align: center;
+}
+
+.btn-app {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 15px;
+    width: 350px;
+}
+.btn-dark {
+    width: 150px;
+    height: 50px;
+    margin: 5px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.btn-store {
+    background-image: url("image/appstore.png");
+    background-size: cover;
+}
+.btn-play {
+    background-image: url("image/googleplay.png");
+    background-size: cover;
+}
+
+/* ------------- */
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 0px;
+    margin-left: 200px;
+    width: 800px;
+}
+
+.footer-menu li {
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    
+}
+
+.copyright {
+    text-align: center;
+    margin-bottom: 50px;
+}
